@@ -1,0 +1,60 @@
+	===============================
+	2017.09.03 修改考试模块
+	1:添加考试学员时，修改学员进度，学员档案　OK
+	2:删除考试学员信息，回滚学员进度不宫内档案  OK
+	3:在批次中修改考试时间时，修改相应的学员进度，学员档案日期 OK
+	4:报考科目时，修改学员进度与档案
+	5:取消报考时，回滚学员进度与档案
+	6:报考科目四前，科二，科三成绩可以任意修改
+	
+	7:驾驶证管理未完善
+	8:
+	
+	
+	================================
+	2017.09.02
+	一、考试模块需要解决问题
+	1:考试管理导入文件是否为空做校验
+	2:导入过程中进度条显示层次问题
+	3:学员成绩导入数据校验是否为本批次学员
+
+
+
+
+
+	＝＝＝＝＝＝＝＝＝＝＝＝＝＝20170901＝＝＝＝＝＝＝
+	环境配置：
+	1)myeclispe2014
+	2)mysql5.79
+	3)tomcat8.0
+	4)jdk1.8
+	5)easyui1.45(项目中已有)
+	6)maven3.3.9
+	
+	
+	学员管理：
+	增加班级选择
+	增加申请类型
+	增加驾驶类型
+	
+	关联关系：
+		Tstudent-organization
+		Tperson-organization
+		修改相应页面设置
+	增加 data文件夹：主要用于json数据文件的存放	
+	
+	
+	重新部署程序的时候需要备份的数据库
+	tb_weixin_user
+	tb_weixin_message
+	tb_weixin_settings
+	tb_weixin_menu
+	tb_article
+	
+	需要备份的文件夹
+	web目录下的 upload
+	
+	
+	
+	
+	backupdir=/home/tuocheng/datasbackup   time='date +%Y%m%d%H' mysqldump -utc -ptc123456 driverschool_main | gzip > $backupdir/home/tuocheng/datasbackup$time.sql.gzfind $backupdir -name "driverschool*.sql.gz" -type f -mtime +5 -exec rm {} \; > /dev/null 2>&1  

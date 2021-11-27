@@ -1,0 +1,99 @@
+/*鎬诲畾涔�*/
+html{ overflow-x:hidden;}
+body,h1,h2,h3,h4,h5,h6,p,ul,li,p,span,input,button,textarea,form,img,dl,dt,dd{ margin:0; padding:0; border:0; line-height:normal; list-style:none; font-weight:normal;}
+a{ text-decoration:none;}
+img{ display:block;}
+.fl{ float:left;}
+.fr{ float:right;}
+.none{ display:none;}
+.ellipsis{ overflow:hidden; white-space:nowrap; text-overflow:ellipsis;} 
+.clear{ clear:both;}
+.clearfix:after{content:".";display:block;height:0;clear:both;visibility:hidden}
+.clearfix10:after{content:".";display:block;height:10px;clear:both;visibility:hidden}
+.border_none{ border:0 !important;}
+.mr_none{ margin-right:0 !important;}
+a:hover{ text-decoration:none;}
+
+
+@font-face{font-family:'huawen';src:url('../fonts/huawen.ttf');*src:url('../fonts/huawen.ttf');font-weight:normal;font-style:normal;}
+
+.box{ max-width:640px;overflow:hidden; margin:0 auto; position:relative;}
+.wm{ width:96%; overflow:hidden; margin:0 auto;}
+
+.top{width:100%;height:60px;margin-top:20px;}
+.top h2{text-indent: 1.5em;color: #000;font-family:"huawen";font-weight:normal;	   }
+.time{font-family:寰蒋闆呴粦;text-indent:2.5em;font-weight:normal;font-size:15px;}
+.gr{width:100%;height:127px;	margin-top:10px;}
+.gr img{width:80%;height:127px;margin:0 auto;}
+
+.car{width:65%;height:35px;margin-left:18%;}
+.car img{float:left;height:35px;padding-right: 10px;}
+.car p{float:left;height:35px;line-height:35px;font-family:"huawen";font-size:28px;color: #F00;}
+
+.cheats{width:35%;height:95px;margin-top: 0;margin-right: auto;margin-bottom: 0;margin-left: auto;padding-top: 20px;}
+ 
+.favourable{width:100%;height:333px;}
+.favourable img{width:90%;height:333px;padding-top: 20px;padding-right: 20px;padding-left: 20px; position:absolute;}
+.favourable p{ width:80%; height:320px; position:absolute; left:10%; margin-top:42px;font-family:"huawen";color:#000;font-size:25px;text-align:center;}
+.w1{color:#F00; font-size:30px;}
+.w2{color:#0F0;}
+
+.banner{width:100%;height:250px;margin-top:30px;}
+.banner img{width:96%;height:250px;margin:0 auto;}
+
+.banner1{width:100%;height:550px;margin-top:10px;}
+.banner1 img{width:96%;height:550px;margin:0 auto;}
+
+.book{width:100%;height:550px; margin-top:20px;}
+.book img{width:96%;height:550px;margin:0 auto;position:absolute; left:2%;}
+.book p{ width:92%; height:550px; position:absolute;margin-left:16px; margin-top:60px;font-family:"huawen";color:#000;font-size:18px;line-height:25px;}
+
+
+.slogan{width:100%;height:84px;margin-top:10px;}
+.slogan img{width:90%;height:84px;margin:0 auto;}
+
+.pl{width:100%;height:550px;margin-top:30px;}
+.pl img{width:96%;height:550px;margin:0 auto;}
+
+.pq{width:100%;height:550px;margin-top:30px;}
+.pq img{width:96%;height:550px;margin:0 auto;}
+
+.w7{width:100%;height:281px;margin-top:30px;}
+.w7 img{width:96%;height:281px;margin:0 auto;}
+
+.w8{width:100%;height:281px;margin-top:30px;}
+.w8 img{width:96%;height:281px;margin:0 auto;}
+
+.w2{width:100%;height:281px;margin-top:30px;}
+.w2 img{width:96%;height:281px;margin:0 auto;}
+
+.w9{width:100%;height:281px;margin-top:30px;}
+.w9 img{width:96%;height:281px;margin:0 auto;}
+
+.w10{width:100%;height:250px;margin-top:10px;}
+.w10 img{width:96%;height:250px;margin:0 auto;}
+
+.w11{width:100%;height:150px;margin-top:30px;}
+.w11img{width:96%;height:150px;margin:0 auto;}
+
+.w6{width:100%;height:281px;margin-top:30px;}
+.w6 img{width:96%;height:281px;margin:0 auto;}
+
+.pe{width:100%;height:550px;margin-top:30px;}
+.pe img{width:96%;height:550px;margin:0 auto;}
+
+.pr{width:100%;height:550px;margin-top:30px;}
+.pr img{width:96%;height:550px;margin:0 auto;}
+
+.thanks{width:100%;height:123px;margin-top:10px;}
+.thanks img{width:50%;height:123px;margin:0 auto;}
+
+.dot{width:100%;height:11px;background-image: url(../images/dot.png);background-repeat: repeat-x;margin-top:10px;}
+
+.bootm{width:100%;height:355px;margin-top:10px;}
+.bootm img{ width:100%; position:absolute; height:355px;}
+.bootm p{ width:75%; height:350px; position:absolute;margin-top:22px; left:13%; font-family:"huawen"; font-size:16px; color:#000; line-height:25px;}
+.qq{ height:355px; color:#F00; font-size:22px; padding-top:20px; padding-bottom:20px;}
+
+.end{ width:100%; height:225px;}
+.foot{ width:94px; margin-left:40px; margin-top:30px;height:143px; margin-bottom:150px; margin-top:-180px; margin-left:80px;}

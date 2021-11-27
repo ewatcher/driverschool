@@ -1,0 +1,98 @@
+
+.titleForm {
+	border-collapse: collapse;
+	width: 96%;
+}
+
+.titleForm th {
+	text-align: right;
+	font-weight: normal;
+}
+.titleForm tr {
+	width: 96%;
+	height: 15px;
+	font-weight: normal;
+}
+
+.titleForm td {
+	text-align: left;
+	font-weight: normal;
+}
+
+.titleForm input {
+	width: 100Px;
+	border: 0px none #fff;
+	font-weight: bold ;
+}
+
+.myInputLine {
+	width: 100px;
+	border-bottom: 1px solid #000;
+	font-weight: bold ;
+}
+
+.tickitForm {
+	border-collapse: collapse;
+	width: 96%;
+}
+
+.tickitForm th {
+	text-align: right;
+	border-bottom: 1px solid #000;
+	font-weight: normal;
+}
+.tickitForm tr {
+	width: 96%;
+	height: 15px;
+	font-weight: normal;
+}
+
+.tickitForm td {
+	text-align: left;
+	border-bottom: 1px solid #000;
+	font-weight: normal;
+}
+
+.tickitForm input {
+	width: 96%;
+	border: 0px none #fff;
+	font-weight: bold ;
+}
+.tableForm {
+	border-collapse: collapse;
+	width: 100%;
+}
+
+.tableForm th {
+	text-align: right;
+	border: 1px solid #ccc;
+}
+
+.tableForm td {
+	text-align: left;
+	border: 1px solid #ccc;
+}
+
+.tableForm input {
+	width: 96%;
+}
+
+.tableForm textarea {
+	width: 96%;
+}
+
+.logo {
+	background: url('images/driver.jpg') no-repeat;
+}
+
+.info {
+	background: #FFFEE6;
+	color: #8F5700;
+	padding: 12px;
+}
+
+.tip {
+	width: 24px;
+	height: 16px;
+	float: left;
+}

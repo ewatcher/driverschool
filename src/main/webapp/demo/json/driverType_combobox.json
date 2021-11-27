@@ -1,0 +1,52 @@
+[{
+	"value":"",
+	"text":""
+},{
+	"value":1,
+	"text":"A1 大型客车"
+},{
+	"value":2,
+	"text":"A2 牵引车"
+},{
+	"value":3,
+	"text":"A3 城市公交车"
+},{
+	"value":4,
+	"text":"B1 中型客车"
+},{
+	"value":5,
+	"text":"B2 大型货车"
+},{
+	"value":6,
+	"text":"C1 小型汽车"
+},{
+	"value":7,
+	"text":"C2 小型自动档汽车"
+},{
+	"value":8,
+	"text":"C3 低速载货汽车"
+},{
+	"value":9,
+	"text":"C4 三轮汽车"
+},{
+	"value":10,
+	"text":"C5残疾专用自动档载客"
+},{
+	"value":11,
+	"text":"D 普通三轮摩托车"
+},{
+	"value":12,
+	"text":"E 普通两轮摩托车"
+},{
+	"value":13,
+	"text":"F 轻便摩托车"
+},{
+	"value":14,
+	"text":"M 轮式自动机械车"
+},{
+	"value":15,
+	"text":"N 无轨电动车"
+},{
+	"value":16,
+	"text":"P 有轨电动车"
+}]
