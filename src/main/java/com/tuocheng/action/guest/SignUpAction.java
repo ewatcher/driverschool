@@ -82,4 +82,35 @@ public class SignUpAction extends GuestAction<SignUp> {
 		request.setAttribute("redirect", redirect);
 		return "addErr";
 	}
+
+	/**
+	* @Description: 推销系统开放接口，学员报名
+	* @Author: 农峰
+	* @Date: create in 2021/12/2 下午3:21
+	* @Param [] 推销系统
+	* @return java.lang.String
+	*
+	*/
+	public String wechatadd(){
+		String message = "";
+		String redirect = "/m/signup.jsp";
+		HttpServletRequest request = ServletActionContext.getRequest();
+		HttpSession session = ServletActionContext.getRequest().getSession();
+		if(Util.isNotNull(model.getUpMobile()) && Util.isNotNull(model.getUpName())){
+			try {
+				SignUp signUp = signUpService.save(model);
+				if(signUp != null){
+					System.out.println("-----------api:"+signUp.toString());
+					return "addSuccess";
+				}
+			} catch (Exception e) {
+				message = "错误:" + e.toString();
+			}
+		} else {
+			message = "参数丢失！请查看填写是否正确！";
+		}
+		request.setAttribute("message", message);
+		request.setAttribute("redirect", redirect);
+		return "addErr";
+	}
 }

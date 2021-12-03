@@ -217,8 +217,9 @@ public class WeixinApiAction extends SimpleAction {
         if(Util.isNotNull(openId) && Util.isNotNull(content)){
         	SessionInfo sessionInfo = null;
 			Object obj = ServletActionContext.getRequest().getSession().getAttribute(ResourceUtil.getSessionInfoName());
-			if(obj != null) sessionInfo = (SessionInfo)obj;
-			
+			if(obj != null){
+				sessionInfo = (SessionInfo)obj;
+			}
 			TweixinUser tWeixinUser = weixinUserService.getByOpenId(openId);
 			if(tWeixinUser != null){
 				Weixin weixin = new WeixinUtil().getWeixinByOrganizationId(tWeixinUser.getOrganizationId());
